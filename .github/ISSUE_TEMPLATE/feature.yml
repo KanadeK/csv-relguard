@@ -1,0 +1,9 @@
+name: Feature proposal
+description: Describe a concrete workflow that needs support
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Problem and proposed behavior
+    validations:
+      required: true

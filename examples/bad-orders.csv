@@ -1,0 +1,4 @@
+id,tenant,customer_id
+100,uk,001
+100,uk,missing
+102,cn,

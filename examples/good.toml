@@ -1,0 +1,14 @@
+version = 1
+
+[tables.customers]
+path = "customers.csv"
+key = ["tenant", "id"]
+
+[tables.orders]
+path = "orders.csv"
+key = ["id"]
+
+[[relationships]]
+source = "orders"
+columns = ["tenant", "customer_id"]
+target = "customers"

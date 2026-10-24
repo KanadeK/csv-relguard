@@ -1,0 +1,14 @@
+name: Bug report
+description: Report a reproducible defect
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include command, Python version, expected/actual output. Use synthetic input.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and version

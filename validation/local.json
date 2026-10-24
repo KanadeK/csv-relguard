@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "python": "3.13.16",
+  "platform": "Windows",
+  "checks": {
+    "lint": {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.074,
+      "passed": true
+    },
+    "format": {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.101,
+      "passed": true
+    },
+    "build": {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 5.189,
+      "passed": true
+    },
+    "fresh-install": {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 5.891,
+      "passed": true
+    },
+    "installed-tests": {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.853,
+      "passed": true
+    },
+    "version": {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.086,
+      "passed": true
+    },
+    "example-0": {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.102,
+      "passed": true
+    },
+    "example-1": {
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "seconds": 0.101,
+      "passed": true
+    }
+  },
+  "artifacts": {
+    "csv_relguard-0.1.0-py3-none-any.whl": {
+      "sha256": "706727a0ce220af9c905f18abbce9ca8406ad6b651d65475cbd96cd78ee11777",
+      "bytes": 11133
+    },
+    "csv_relguard-0.1.0.tar.gz": {
+      "sha256": "7760ac6f00c4f3e60e43c7ea07ebb617a21ecacd179daf923acb3d62c9e01e08",
+      "bytes": 19259
+    }
+  },
+  "runtime_dependencies": [],
+  "test_count": 20
+}

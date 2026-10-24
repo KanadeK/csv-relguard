@@ -1,0 +1,4 @@
+include *.md requirements-dev.txt
+recursive-include examples *
+recursive-include tests *.py
+exclude validation/local.json
