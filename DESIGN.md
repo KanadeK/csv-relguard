@@ -20,3 +20,7 @@ typos and path escapes, findings caps, cleanup on exceptions, and limited tables
 Tests cover 20,000 parent plus 20,000 child records and installed CLI operation.
 Known boundaries include mutable source files, OS temporary storage privacy,
 per-field rather than whole-row limits, and process-global csv.field_size_limit.
+
+Remote Windows CI exposed an 8.3 short-path alias in the runner's temporary
+directory. The relative-path acceptance test now checks physical file identity
+with samefile, rather than assuming the two valid spellings are textually equal.

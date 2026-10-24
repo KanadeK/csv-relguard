@@ -7,60 +7,60 @@
     "lint": {
       "exit_code": 0,
       "expected_exit_code": 0,
-      "seconds": 0.074,
+      "seconds": 0.078,
       "passed": true
     },
     "format": {
       "exit_code": 0,
       "expected_exit_code": 0,
-      "seconds": 0.101,
+      "seconds": 0.078,
       "passed": true
     },
     "build": {
       "exit_code": 0,
       "expected_exit_code": 0,
-      "seconds": 5.189,
+      "seconds": 4.979,
       "passed": true
     },
     "fresh-install": {
       "exit_code": 0,
       "expected_exit_code": 0,
-      "seconds": 5.891,
+      "seconds": 1.173,
       "passed": true
     },
     "installed-tests": {
       "exit_code": 0,
       "expected_exit_code": 0,
-      "seconds": 0.853,
+      "seconds": 0.782,
       "passed": true
     },
     "version": {
       "exit_code": 0,
       "expected_exit_code": 0,
-      "seconds": 0.086,
+      "seconds": 0.088,
       "passed": true
     },
     "example-0": {
       "exit_code": 0,
       "expected_exit_code": 0,
-      "seconds": 0.102,
+      "seconds": 0.101,
       "passed": true
     },
     "example-1": {
       "exit_code": 1,
       "expected_exit_code": 1,
-      "seconds": 0.101,
+      "seconds": 0.095,
       "passed": true
     }
   },
   "artifacts": {
     "csv_relguard-0.1.0-py3-none-any.whl": {
-      "sha256": "706727a0ce220af9c905f18abbce9ca8406ad6b651d65475cbd96cd78ee11777",
+      "sha256": "1d883031b1ded1814757eea65cad53449235eb2a166a9c67b610d4910ad114e4",
       "bytes": 11133
     },
     "csv_relguard-0.1.0.tar.gz": {
-      "sha256": "7760ac6f00c4f3e60e43c7ea07ebb617a21ecacd179daf923acb3d62c9e01e08",
-      "bytes": 19259
+      "sha256": "4be00d384bd9192cd9886b2bc15f962d9fceed3d93b9472150ebf14d1b4c4aaa",
+      "bytes": 19363
     }
   },
   "runtime_dependencies": [],

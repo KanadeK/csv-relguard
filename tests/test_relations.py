@@ -168,7 +168,7 @@ class ConfigCliTests(unittest.TestCase):
 
     def test_config_valid_relative_to_manifest(self):
         cfg = self.load(self.base)
-        self.assertEqual(cfg.tables["a"].path, self.root / "input.csv")
+        self.assertTrue(cfg.tables["a"].path.samefile(self.root / "input.csv"))
         self.assertTrue(audit(cfg).to_dict()["ok"])
 
     def test_bad_configs(self):
